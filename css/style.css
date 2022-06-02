@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.logo {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  padding: 19px 60px;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #242f9b;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 188px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav ul li a:hover {
+  background-color: #646fd4;
+  color: #333;
+}
+
+section#home {
+  background-image: url('../img/bank.jpg');
+  background-size: 96%;
+  background-repeat: no-repeat;
+  margin-top: -1%;
+  margin-left: 4%;
+  height: 100%;
+}
+section h1 {
+  text-align: center;
+  padding: 238px 0;
+  font-family: Roboto Slab;
+  color: #fff;
+  letter-spacing: 5px;
+  font-size: 6rem;
+}
+.cards {
+  background-color: #646fd4;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 1px 0px 10px 1px #fff;
+  padding: 47px 66px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+.cards a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  background-color: #242f9b;
+  color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+}
